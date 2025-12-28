@@ -1,5 +1,5 @@
 {% set name = "jupyterlab-solarized-light-theme" %}
-{% set version = "1.0.0" %}
+{% set version = "1.1.0" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/jupyterlab_solarized_light_theme-{{ version }}.tar.gz
-  sha256: d2fb55538c2b4abf739bcebe0b0b0c0d5841977aea648893bf287f31916e3067
+  sha256: 0b777e440f897538f7148f278e0e9ec6ae6aa2fa5da0de1b765595abaa0d7e9c
 
 build:
   noarch: python
